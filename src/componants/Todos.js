@@ -29,7 +29,18 @@ const Todos = (props) => {
         className="todo-input"
       />
 
-      <button className="add-btn">ADD</button>
+      <button
+        className="add-btn"
+        onClick={() =>
+          props.addTodo({
+            id: Math.floor(Math.random() * 1000),
+            item: todo,
+            completed: false,
+          })
+        }
+      >
+        ADD
+      </button>
     </div>
   );
 };
