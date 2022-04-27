@@ -1,6 +1,11 @@
-import React from "react";
 import { useState } from "react";
 import { connect } from "react-redux";
+
+const mapStateToProps = (state) => {
+  return {
+    todos: state,
+  };
+};
 
 const Todos = (props) => {
   const [todo, setTodo] = useState("");
@@ -22,4 +27,4 @@ const Todos = (props) => {
   );
 };
 
-export default connect(null)(null)(Todos);
+export default connect(mapStateToProps)(null)(Todos);
