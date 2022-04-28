@@ -1,8 +1,10 @@
 import "./css/main.css";
 import DisplayTodos from "./components/DisplayTodos";
 import Todos from "./components/Todos";
-
 import { motion } from "framer-motion";
+
+const app = initializeApp(firebaseConfig);
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +14,7 @@ function App() {
         transition={{ type: "spring", duration: 0.5 }}
         whileHover={{ scale: 1.1 }}
       >
-        Todo App
+        Todo List App
       </motion.h1>
       <motion.div
         initial={{ y: 1000 }}
