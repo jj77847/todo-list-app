@@ -45,13 +45,11 @@ const DisplayTodos = () => {
                     removeTodo={props.removeTodo}
                     updateTodo={props.removeTodo}
                     completeTodo={props.removeTodo}
-                     
-
-
                   />
-              )
-          })
-        }
+                )
+              );
+            })
+          : null}
       </ul>
     </div>
   );
