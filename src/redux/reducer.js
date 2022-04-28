@@ -14,6 +14,7 @@ const addTodoReducer = createSlice({
       state.push(action.payload);
       return state;
     },
+    removeTodos: (state, action) => {},
   },
 });
 

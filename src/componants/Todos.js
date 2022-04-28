@@ -52,4 +52,4 @@ const Todos = (props) => {
   );
 };
 
-export default connect(mapStateToProps)(mapDispatchToProps)(Todos);
+export default connect(mapStateToProps, mapDispatchToProps)(Todos);
