@@ -3,8 +3,6 @@ import DisplayTodos from "./components/DisplayTodos";
 import Todos from "./components/Todos";
 import { motion } from "framer-motion";
 
-const app = initializeApp(firebaseConfig);
-
 function App() {
   return (
     <div className="App">
