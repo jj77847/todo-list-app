@@ -25,7 +25,7 @@ const Todos = (props) => {
 
   const add = () => {
     if (todo === "") {
-      alert("Input is Empty");
+      alert("Please Add A New Note! 😊");
     } else {
       props.addTodo({
         id: Math.floor(Math.random() * 1000),
