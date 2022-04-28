@@ -8,13 +8,13 @@ import "firebase/firestore";
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD29ojIoAxxWLZZk2w4xjI1AqoXi0rG0iY",
-  authDomain: "react-hooks-firestore-test.firebaseapp.com",
-  databaseURL: "https://react-hooks-firestore-test.firebaseio.com",
-  projectId: "react-hooks-firestore-test",
-  storageBucket: "react-hooks-firestore-test.appspot.com",
-  messagingSenderId: "726435971543",
-  appId: "1:726435971543:web:43459934002ee3d8",
+  apiKey: "AIzaSyClMGYKyxbo_n_tB4D-pqCCfFcA9o9txXc",
+  authDomain: "todo-list-app-jj.firebaseapp.com",
+  projectId: "todo-list-app-jj",
+  storageBucket: "todo-list-app-jj.appspot.com",
+  messagingSenderId: "440904171756",
+  appId: "1:440904171756:web:8385d4bc7a60fb1f16a5c9",
+  measurementId: "G-3EKGB3MW96",
 };
 
 // Initialize Firebase
