@@ -33,12 +33,10 @@ const DisplayTodos = () => {
         <button onClick={() => setSort("all")}>All</button>
       </div>
       <ul>
-          {
-          props.todos.length > 0 && sort === "active" ?
-
-          props.todos.map(item => {
+        {props.todos.length > 0 && sort === "active"
+          ? props.todos.map((item) => {
               return (
-                  item.completed === false &&
+                item.completed === false && (
                   <TodoItem
                     key={item.id}
                     item={item}

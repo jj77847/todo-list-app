@@ -30,6 +30,7 @@ const TodoItem = (props) => {
         <button onClick={() => completeTodo(item.id)}>Complete</button>
         <button onClick={() => removeTodo(item.id)}>Delete</button>{" "}
       </div>
+      {item.completed && <span className="completed">done</span>}
     </li>
   );
 };
