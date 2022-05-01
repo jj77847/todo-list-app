@@ -24,6 +24,8 @@ Please upload this to a public github repo that we would be able to view and dow
 
 # Firebase
 
+- Channel URL (todo-list-app-jonny): https://todo-list-app-jonny--preview-name-18l883cc.web.app [expires 2022-05-08 10:03:25]
+
 - Firebase Project Console: https://console.firebase.google.com/project/todo-list-app-jonny/overview
 
 - Firebase Hosting URL: https://todo-list-app-jonny.web.app
