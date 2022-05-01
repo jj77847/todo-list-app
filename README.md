@@ -1,3 +1,25 @@
+# ToDo List App Using Firebase
+
+## Task
+
+The task is as follows:
+
+You are to build a simple todo-list React app using redux.
+
+This project will require you to build a front-end user interface as you see fit that will allow you to do the following functions:
+
+- Add a new item to the list
+- Delete an item from the list
+- Update an existing item
+
+This project will also be connected to a firebase backend.
+
+This will require setting up a firebase project and linking the React frontend to a firestore database.
+
+There will be a save button that will save the items in the database. These saved items would then be loaded in from the database when opening the React application.
+
+Please upload this to a public github repo that we would be able to view and download from for testing.
+
 # Firebase
 
 - Firebase Project Console: https://console.firebase.google.com/project/todo-list-app-jonny/overview
