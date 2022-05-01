@@ -2,7 +2,7 @@
 
 ## Task
 
-The task is as follows:
+The task was as follows:
 
 You are to build a simple todo-list React app using redux.
 
@@ -19,6 +19,8 @@ This will require setting up a firebase project and linking the React frontend t
 There will be a save button that will save the items in the database. These saved items would then be loaded in from the database when opening the React application.
 
 Please upload this to a public github repo that we would be able to view and download from for testing.
+
+- Github Repo: https://github.com/jj77847/todo-list-app
 
 # Firebase
 
