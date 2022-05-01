@@ -30,6 +30,10 @@ Please upload this to a public github repo that we would be able to view and dow
 
 - Firebase Hosting URL: https://todo-list-app-jonny.web.app
 
+# Screenshot
+
+<img width="1280" alt="Screenshot 2022-05-01 at 10 33 52" src="https://user-images.githubusercontent.com/81172135/166140383-ec3c8a38-b538-4738-89bb-7d946e4920e4.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
