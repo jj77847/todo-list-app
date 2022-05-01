@@ -57,5 +57,5 @@ const Todos = (props) => {
     </div>
   );
 };
-//we can use connect method to connect this component with redux store
+//use connect method to connect this component with redux store
 export default connect(mapStateToProps, mapDispatchToProps)(Todos);
